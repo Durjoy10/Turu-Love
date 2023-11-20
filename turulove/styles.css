@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    background-color:lightpink ;
+
+}
+
+/* nav bar */
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    padding: 10px;
+  }
+  
+
+.logo img {
+    height: 50px;
+  }
+  
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.nav-links li a:hover {
+    text-decoration: underline;
+  }
+
+.login-btn a,
+.signup-btn a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+
+  }
+
+.login-btn .signup-btn{
+    color: #333;
+    gap: 10px;
+  }
+  
+  
+.login-btn a:hover,
+.signup-btn a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+
+
+  /* header */
+  
+
+.mid {
+    background-image: url("image/backg.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: right;
+    align-items: center;
+    text-align: center; 
+    color: #fff;
+    width: 100%;
+}
+  
+.hero{
+    margin-top: 19rem;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+
+
+.join-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+  
+
+
+
+
+
+/* login */
+
+  
+.loginsec {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color:#fff ;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+  
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.signup-link {
+    text-align: center;
+}
+  
+.signup-link a {
+    color: #333;
+    text-decoration: none;
+}
+  
+
+
+
+
+/* signup */
+
+
+.signupsec {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color:#fff ;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+  
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.login-link {
+    text-align: center;
+}
+  
+.login-link a {
+    color: #333;
+    text-decoration: none;
+}
+  
+
+.about-section{
+    margin-top: 20rem;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.about-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+  
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
+
+
+
+
+/* services */
+
+.services {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+  
+.profile-section {
+    margin-bottom: 40px;
+}
+  
+.profile-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(252, 170, 187) ;
+}
+  
+.profile img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+  
+.profile h3 {
+    margin: 0;
+}
+  
+.profile p {
+    margin-bottom: 5px;
+}
+  
+.profile-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
